@@ -1,4 +1,5 @@
-function greeter(person) {
+/* Expects 1 argument of type string */
+function greeter(person: string) {
   return "Hello, " + person;
 }
 
